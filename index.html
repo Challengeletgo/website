@@ -642,6 +642,7 @@ url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMExce
             text-decoration: none;
             background: linear-gradient(to right, var(--text-primary), var(--text-secondary));
             -webkit-background-clip: text;
+background-clip: text; /* 이 줄을 추가하세요 */
             -webkit-text-fill-color: transparent;
         }
 
@@ -746,7 +747,8 @@ url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMExce
         }
         .hero-title span {
             background: linear-gradient(135deg, var(--accent-1), var(--accent-3));
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+background-clip: text; /* 이 줄을 추가하세요 */ -webkit-text-fill-color: transparent;
         }
 
         .hero-subtitle {
@@ -1029,7 +1031,7 @@ url:e,reason:"blocked_domain_not_allowlisted"},b.parentOrigin);throw new DOMExce
     <section id="contact" class="contact-section">
         <div class="section-header" style="text-align: center;">
             <h2 class="">Let's Talk</h2>
-            <p style="margin: 0 auto;" class="">새로운 프로젝트, 협업 제안, 혹은 가벼운 커피챗도 환영합니다.</p>
+            <p style="margin: 0 auto;" class="">웹 사이트 제작, 앱 개발,새로운 프로젝트, 협업 제안, 혹은 가벼운 커피챗도 환영합니다.</p>
         </div>
         
         <div class="contact-grid">
